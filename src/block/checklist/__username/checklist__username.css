@@ -1,0 +1,11 @@
+.checklist__username {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #0CB4F1;
+    margin: 14px 0 20px 16px;
+    grid-area: name;
+    width: 100px;
+}

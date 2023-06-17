@@ -1,0 +1,33 @@
+{
+  "name": "todo",
+  "version": "0.0.1",
+  "main": "./src/pages/index.js",
+  "scripts": {
+    "build": "rimraf dist && webpack",
+    "dev": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\\"
+  },
+  "author": "Levon Maksudyan",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "core-js": "^3.31.0",
+    "jquery": "^3.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

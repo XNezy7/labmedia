@@ -1,0 +1,7 @@
+.checklist__cancel{
+    all: unset;
+    background-image: url(../../../images/cancel.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 16px 0 0;
+}

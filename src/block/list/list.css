@@ -1,0 +1,9 @@
+@import url(./__title/list__title.css);
+@import url(./__clear/list__clear.css);
+@import url(./__input/list__input.css);
+@import url(./__box/list__box.css);
+
+.list{
+    width: 961px;
+    margin: 12px auto 72px;
+}

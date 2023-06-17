@@ -1,0 +1,9 @@
+.pagination__button {
+    cursor: pointer;
+    margin-left: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    color: #0CB4F1;
+}

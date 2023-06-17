@@ -1,0 +1,5 @@
+.checklist__main{
+    display: grid;
+    grid-template-areas: "name email registration rating cancel";
+    grid-template-columns: 225px 225px 225px 225px 61px;
+}

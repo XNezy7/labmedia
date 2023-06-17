@@ -1,0 +1,13 @@
+.list__clear {
+    all: unset;
+    margin: 0 4px 16px 20px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4F4F4F;
+    cursor: pointer;
+    background-image: url(../../../images/clear.svg);
+    background-repeat: no-repeat;
+    padding-left: 16px;
+}

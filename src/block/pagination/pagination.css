@@ -1,0 +1,5 @@
+@import url(./__button/pagination__button.css);
+
+.pagination{
+    text-align: center;
+}
