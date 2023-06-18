@@ -1,7 +1,7 @@
 @import url(./__title/popup__title.css);
 @import url(./__delete/popup__delete.css);
-@import url(./__button/popup__button.css);
-@import url(./__button/-cancel/popup__button-cancel.css);
+@import url(__button/popup__button.css);
+@import url(__button/-cancel/popup__button-cancel.css);
 
 .popup {
     height: 100%;
@@ -22,15 +22,4 @@
 .popup__active {
     visibility: visible;
     opacity: 1;
-}
-
-
-.popup__title {
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    color: #000000;
-    margin: 36px auto 24px;
-    text-align: center;
 }
