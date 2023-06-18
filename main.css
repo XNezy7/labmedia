@@ -1,0 +1,338 @@
+/*!***************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/body/body.css ***!
+  \***************************************************************************/
+.body{
+    margin: auto;
+    width: 1000px;
+    background: #F7F7F7;
+}
+/*!****************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/list/title/list__title.css ***!
+  \****************************************************************************************/
+.list__title {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #333333;
+}
+/*!****************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/list/clear/list__clear.css ***!
+  \****************************************************************************************/
+.list__clear {
+    all: unset;
+    margin: 0 4px 16px 20px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4F4F4F;
+    cursor: pointer;
+    background-image: url(bac2e0e2d5e0b13b1be2.svg);
+    background-repeat: no-repeat;
+    padding-left: 16px;
+}
+/*!****************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/list/input/list__input.css ***!
+  \****************************************************************************************/
+.list__input {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    width: 901px;
+    height: 34px;
+    padding-left: 28px;
+    margin: 12px 44px 33px 16px;
+    background-image: url(c89c138163ace84fb915.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #ECEFF0;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.list__input::placeholder{
+    color: #9EAAB4;
+}
+/*!************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/list/box/list__box.css ***!
+  \************************************************************************************/
+.list__box {
+    background: #FFFFFF;
+    box-shadow: 0px 18px 15px rgba(148, 148, 148, 0.15);
+    border-radius: 7px;
+}
+/*!***************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/list/list.css ***!
+  \***************************************************************************/
+.list{
+    width: 961px;
+    margin: 12px auto 72px;
+}
+/*!****************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/table/date/table__date.css ***!
+  \****************************************************************************************/
+.table__date {
+    all: unset;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    margin-left: 8px;
+    color: #9EAAB4;
+    border-bottom: 1px dashed #9EAAB4;
+    cursor: pointer;
+}
+
+.table__date:active{
+    color: #333333;
+    border-bottom: 1px dashed #333333;;
+  }
+/*!********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/table/rating/table__rating.css ***!
+  \********************************************************************************************/
+.table__rating {
+    all: unset;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    color: #9EAAB4;
+    margin-left: 9px;
+    border-bottom: 1px dashed #9EAAB4;
+    cursor: pointer;
+}
+
+.table__rating:active{
+    color: #333333;
+    border-bottom: 1px dashed #333333;
+  }
+/*!**********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/table/sorting/table__sorting.css ***!
+  \**********************************************************************************************/
+.table__sorting {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    max-width: 63px;
+    margin: 0;
+    color: #9EAAB4;
+}
+/*!*****************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/table/table.css ***!
+  \*****************************************************************************/
+.table{
+    width: 961px;
+    margin: 12px auto 0;
+}
+/*!**************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/checklist/email/checklist__email.css ***!
+  \**************************************************************************************************/
+.checklist__email{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    color: #9EAAB4;
+    margin: 14px 0 20px 16px;
+    grid-area: email;
+    width: 100px;
+}
+/*!************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/checklist/main/checklist__main.css ***!
+  \************************************************************************************************/
+.checklist__main{
+    display: grid;
+    grid-template-areas: "name email registration rating cancel";
+    grid-template-columns: 225px 225px 225px 225px 61px;
+}
+/*!************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/checklist/name/checklist__name.css ***!
+  \************************************************************************************************/
+.checklist__name{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    color: #9EAAB4;
+    margin: 14px 0 20px 16px;
+    grid-area: name;
+    width: 100px;
+}
+/*!****************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/checklist/rating/checklist__rating.css ***!
+  \****************************************************************************************************/
+.checklist__rating{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    color: #9EAAB4;
+    margin: 14px 0 20px 16px;
+    grid-area: rating;
+    width: 100px;
+}
+/*!****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/checklist/registration/checklist__registration.css ***!
+  \****************************************************************************************************************/
+.checklist__registration {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    color: #9EAAB4;
+    margin: 14px 0 20px 16px;
+    grid-area: registration;
+    width: 100px;
+}
+/*!****************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/checklist/border/checklist__border.css ***!
+  \****************************************************************************************************/
+.checklist__border{
+    border-bottom: solid 1px rgba(220, 220, 220, .9);
+    width: 925px;
+    margin: 0 auto;
+}
+/*!****************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/checklist/cancel/checklist__cancel.css ***!
+  \****************************************************************************************************/
+.checklist__cancel{
+    all: unset;
+    background-image: url(1b47bbfdb8ba20bb70ce.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 16px 0 0;
+    cursor: pointer;
+}
+/*!********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/checklist/username/checklist__username.css ***!
+  \********************************************************************************************************/
+.checklist__username {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #0CB4F1;
+    margin: 14px 0 20px 16px;
+    grid-area: name;
+    width: 100px;
+}
+/*!*************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/checklist/checklist.css ***!
+  \*************************************************************************************/
+.checklist {
+    width: 961px;
+    margin: 12px auto 72px;
+    background: #FFFFFF;
+    box-shadow: 0px 18px 15px rgba(148, 148, 148, 0.15);
+    border-radius: 7px;
+}
+/*!******************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/pagination/button/pagination__button.css ***!
+  \******************************************************************************************************/
+.pagination__button {
+    cursor: pointer;
+    margin-left: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    color: #0CB4F1;
+}
+/*!***************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/pagination/pagination.css ***!
+  \***************************************************************************************/
+.pagination{
+    text-align: center;
+}
+/*!******************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/popup/title/popup__title.css ***!
+  \******************************************************************************************/
+.popup__title {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin: 36px auto 24px;
+    text-align: center;
+}
+/*!********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/popup/delete/popup__delete.css ***!
+  \********************************************************************************************/
+.popup__delete {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    width: 353px;
+    height: 134px;
+    position: relative;
+}
+/*!********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/popup/button/popup__button.css ***!
+  \********************************************************************************************/
+.popup__button {
+    all: unset;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #828282;
+    cursor: pointer;
+    background: #E0E0E0;
+    border-radius: 3px;
+    width: 88px;
+    height: 27px;
+    text-align: center;
+    margin: 0 0 0 67px;
+}
+/*!***********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/popup/button/-cancel/popup__button-cancel.css ***!
+  \***********************************************************************************************************/
+.popup__button-cancel {
+    all: unset;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    background-color: #0CB4F1;
+    width: 95px;
+    height: 27px;
+    text-align: center;
+    margin: 0 0 0 36px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/*!*****************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/block/popup/popup.css ***!
+  \*****************************************************************************/
+.popup {
+    height: 100%;
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s linear;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    z-index: 1;
+}
+
+.popup__active {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*!***********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/pages/index.css ***!
+  \***********************************************************************/
+

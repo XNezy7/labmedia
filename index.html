@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./src/pages/index.css">
+    <title>List</title>
+<script defer src="main.js"></script><link href="main.css" rel="stylesheet"></head>
+
+<body class="body">
+    <section class="list">
+        <h1 class="list__title">Список Пользователей</h1>
+        <div class="list__box">
+            <label>
+                <input type="text" name="text" id="list_input" minlength="2" maxlength="35" class="list__input"
+                    placeholder="Поиск по имени или e-mail" required>
+            </label>
+            <button class="list__clear">Очистить фильтр</button>
+        </div>
+    </section>
+    <section class="table">
+        <div>
+            <a class="table__sorting">Сортировка: </a>
+            <button class="table__date">Дата регистрации</button>
+            <button class="table__rating">Рейтинг</button>
+        </div>
+    </section>
+    <section class="checklist">
+        <div class="checklist__main">
+            <h5 class="checklist__name">Имя пользователя</h5>
+            <h5 class="checklist__email">E-mail</h5>
+            <h5 class="checklist__registration">Дата регистрации</h5>
+            <h5 class="checklist__rating">Рейтинг</h5>
+        </div>
+        <div class="checklist__border"></div>
+        <div id="users_container"></div>
+        <div class="pagination">
+            <button class="pagination__button" id="prev_page">Предыдущая</button>
+            <button class="pagination__button" id="next_page">Следующая</button>
+        </div>
+    </section>
+    <section class="popup" id="popup">
+        <form class="popup__delete">
+            <h2 class="popup__title">Вы уверены, что хотите удалить пользователя?</h2>
+            <button class="popup__button" type="submit">Да</button>
+            <button class="popup__button-cancel">Нет</button>
+        </form>
+    </section>
+    <script src="./src/pages/index.js"></script>
+</body>
+
+</html>
