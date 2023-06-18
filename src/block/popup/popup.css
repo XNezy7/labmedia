@@ -2,7 +2,7 @@
 @import url(./__delete/popup__delete.css);
 /* @import url(./__button/popup__button.css); */
 @import url(./__button/-cancel/popup__button-cancel.css);
-@import url(/src/block/popup/__button/popup__button.css);
+@import url(__button/popup__button.css);
 
 .popup {
     height: 100%;
