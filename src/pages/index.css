@@ -4,3 +4,11 @@
 @import url(../block/checklist/checklist.css);
 @import url(../block/pagination/pagination.css);
 @import url(../block/popup/popup.css);
+@import url(../block/__email/checklist__email.css);
+@import url(../block/__main/checklist__main.css);
+@import url(../block/__name/checklist__name.css);
+@import url(../block/__rating/checklist__rating.css);
+@import url(../block/__registration/checklist__registration.css);
+@import url(../block/__border/checklist__border.css);
+@import url(../block/__cancel/checklist__cancel.css);
+@import url(../block/__username/checklist__username.css);

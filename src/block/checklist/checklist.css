@@ -1,11 +1,11 @@
-@import url(./__email/checklist__email.css);
+/* @import url(./__email/checklist__email.css);
 @import url(./__main/checklist__main.css);
 @import url(./__name/checklist__name.css);
 @import url(./__rating/checklist__rating.css);
 @import url(./__registration/checklist__registration.css);
 @import url(./__border/checklist__border.css);
 @import url(./__cancel/checklist__cancel.css);
-@import url(./__username/checklist__username.css);
+@import url(./__username/checklist__username.css); */
 
 .checklist {
     width: 961px;
