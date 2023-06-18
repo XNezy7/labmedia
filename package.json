@@ -1,7 +1,7 @@
 {
   "name": "todo",
   "version": "0.0.1",
-  "main": "./src/pages/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "rimraf dist && webpack",
     "dev": "webpack serve"
