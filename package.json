@@ -2,13 +2,14 @@
   "name": "todo",
   "version": "0.0.1",
   "main": "dist/index.js",
-  "scripts": {
-    "build": "rimraf dist && webpack",
-    "dev": "webpack serve"
-  },
   "repository": {
-    "type": "git",
-    "url": "\\"
+    "url": "git+https://github.com/XNezy7/labmedia.git"
+  },
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "webpack --mode=development",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Levon Maksudyan",
   "license": "ISC",
@@ -23,6 +24,7 @@
     "babel-loader": "^9.1.2",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.8.1",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.3",
     "mini-css-extract-plugin": "^2.7.6",
     "style-loader": "^3.3.3",
