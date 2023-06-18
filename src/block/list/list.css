@@ -1,7 +1,7 @@
-@import url(./title/list__title.css);
-@import url(./clear/list__clear.css);
-@import url(./input/list__input.css);
-@import url(./box/list__box.css);
+@import url(./__title/list__title.css);
+@import url(./__clear/list__clear.css);
+@import url(./__input/list__input.css);
+@import url(./__box/list__box.css);
 
 .list{
     width: 961px;

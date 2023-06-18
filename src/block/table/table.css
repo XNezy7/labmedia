@@ -1,6 +1,6 @@
-@import url(./date/table__date.css);
-@import url(./rating/table__rating.css);
-@import url(./sorting/table__sorting.css);
+@import url(./__date/table__date.css);
+@import url(./__rating/table__rating.css);
+@import url(./__sorting/table__sorting.css);
 
 .table{
     width: 961px;

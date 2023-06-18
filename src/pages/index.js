@@ -6,7 +6,7 @@ import Api from "../components/Api";
 const api = new Api({
   baseUrl: "https://5ebbb8e5f2cfeb001697d05c.mockapi.io/users",
   headers: {
-    authorization: "a8ffb240-ff73-4a9e-8ad1-0029aba72e90",
+    authorization: process.env.API_TOKEN,
     "Content-Type": "application/json",
   },
 });
