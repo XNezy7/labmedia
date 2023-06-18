@@ -1,7 +1,6 @@
 "use strict";
 
 import "./index.css";
-import "../block/checklist/checklist.css"
 import Api from "../components/Api";
 
 const api = new Api({
