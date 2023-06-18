@@ -1,3 +1,5 @@
+"use strict";
+
 class Api {
   constructor(token) {
     this.token = token;

@@ -1,3 +1,5 @@
+"use strict";
+
 import "./index.css";
 import Api from "../components/Api";
 
