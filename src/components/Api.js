@@ -4,9 +4,9 @@ class Api {
   }
 
   async fetchUsers() {
-    const url = 'https://5ebbb8e5f2cfeb001697d05c.mockapi.io/users';
+    const url = "https://5ebbb8e5f2cfeb001697d05c.mockapi.io/users";
     const headers = {
-      'Authorization': `Bearer ${this.token}`
+      Authorization: `Bearer ${this.token}`,
     };
 
     try {
@@ -15,7 +15,7 @@ class Api {
 
       return data;
     } catch (error) {
-      console.error('Ошибка при получении данных:', error);
+      console.error("Ошибка при получении данных:", error);
       throw error;
     }
   }
