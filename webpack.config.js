@@ -23,12 +23,12 @@ module.exports = {
         test: /\.js$/,
         use: 'babel-loader',
         exclude: /node_modules/,
+      },
+      {
         test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, {
-          loader: 'css-loader'
-        }]
-      }
-    ]
+        use: [MiniCssExtractPlugin.loader, 'css-loader'],
+      },
+    ],
   },
   plugins: [
     new HtmlWebpackPlugin({
